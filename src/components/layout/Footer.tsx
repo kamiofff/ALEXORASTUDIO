@@ -20,13 +20,18 @@ export function Footer() {
   const handleNavClick = (href: string) => {
     if (href.startsWith('/#')) {
       const id = href.slice(2);
+
       if (location.pathname !== '/') {
         navigate('/');
         setTimeout(() => {
-          document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+          document
+            .getElementById(id)
+            ?.scrollIntoView({ behavior: 'smooth' });
         }, 100);
       } else {
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+        document
+          .getElementById(id)
+          ?.scrollIntoView({ behavior: 'smooth' });
       }
     }
   };
@@ -35,22 +40,31 @@ export function Footer() {
     <footer className="border-t border-white/5 bg-[#070a0f]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex flex-col leading-none mb-4">
-              <span className="text-xl font-bold text-white">ALEXORA</span>
+              <span className="text-xl font-bold text-white">
+                ALEXORA
+              </span>
+
               <span className="text-xs font-medium tracking-[0.3em] text-cyan-400">
                 STUDIO
               </span>
             </div>
-            <p className="text-sm text-gray-500 max-w-xs">{t.footer.tagline}</p>
+
+            <p className="text-sm text-gray-500 max-w-xs">
+              {t.footer.tagline}
+            </p>
           </div>
+
 
           {/* Navigation */}
           <div>
             <h4 className="text-sm font-semibold text-white mb-4">
               {t.footer.navigation}
             </h4>
+
             <ul className="space-y-2.5">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -65,12 +79,15 @@ export function Footer() {
             </ul>
           </div>
 
+
           {/* Contacts */}
           <div>
             <h4 className="text-sm font-semibold text-white mb-4">
               {t.footer.contacts}
             </h4>
+
             <ul className="space-y-3">
+
               <li>
                 <a
                   href="mailto:studioalexora@gmail.com"
@@ -80,6 +97,7 @@ export function Footer() {
                   studioalexora@gmail.com
                 </a>
               </li>
+
               <li>
                 <a
                   href="https://t.me/studioalexora"
@@ -91,6 +109,7 @@ export function Footer() {
                   @studioalexora
                 </a>
               </li>
+
               <li>
                 <a
                   href="tel:+380771167600"
@@ -100,39 +119,62 @@ export function Footer() {
                   +380 (77) 116 76 00
                 </a>
               </li>
+
             </ul>
           </div>
+
 
           {/* Info */}
           <div>
             <h4 className="text-sm font-semibold text-white mb-4">
               {t.footer.info}
             </h4>
+
             <ul className="space-y-3">
-              <li className="flex items-center gap-2 text-sm text-gray-400">
-                <span className="font-medium text-gray-300">Коновалов М.О.</span>
+
+              {/* Owners */}
+              <li className="text-sm text-gray-400">
+                <div className="font-medium text-gray-300">
+                  Коновалов М.О.
+                </div>
+
+                <div className="font-medium text-gray-300">
+                  Коновалова А.О.
+                </div>
               </li>
+
+              {/* Location */}
               <li className="flex items-center gap-2 text-sm text-gray-400">
                 <MapPin size={16} className="shrink-0" />
                 Київ, Україна
               </li>
+
+              {/* Language */}
               <li className="pt-2">
                 <LanguageSwitcher />
               </li>
+
             </ul>
           </div>
+
         </div>
 
+
+        {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
+
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} ALEXORA STUDIO. {t.footer.rights}.
+            © {new Date().getFullYear()} ALEXORA STUDIO.{' '}
+            {t.footer.rights}.
           </p>
+
           <Link
             to="/admin"
             className="text-xs text-gray-600 hover:text-gray-400 transition-colors"
           >
             Admin
           </Link>
+
         </div>
       </div>
     </footer>

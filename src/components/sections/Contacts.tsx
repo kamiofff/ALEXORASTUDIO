@@ -37,52 +37,100 @@ export function Contacts() {
   return (
     <Section id="contact" className="bg-[#0a0e14]">
       <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+
         {/* Left: info */}
         <div>
-          <SectionHeader title={t.contact.title} subtitle={t.contact.subtitle} center={false} />
+          <SectionHeader
+            title={t.contact.title}
+            subtitle={t.contact.subtitle}
+            center={false}
+          />
 
           <Reveal delay={200}>
             <div className="space-y-4 mt-8">
+
               {contactItems.map((item) => (
-                <div key={item.label} className="flex items-center gap-4">
+                <div
+                  key={item.label}
+                  className="flex items-center gap-4"
+                >
                   <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-400/20 shrink-0">
-                    <item.icon className="text-cyan-400" size={20} />
+                    <item.icon
+                      className="text-cyan-400"
+                      size={20}
+                    />
                   </div>
+
                   <div>
-                    <div className="text-xs text-gray-500 mb-0.5">{item.label}</div>
+                    <div className="text-xs text-gray-500 mb-0.5">
+                      {item.label}
+                    </div>
+
                     {item.href ? (
                       <a
                         href={item.href}
-                        target={item.href.startsWith('http') ? '_blank' : undefined}
-                        rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                        target={
+                          item.href.startsWith('http')
+                            ? '_blank'
+                            : undefined
+                        }
+                        rel={
+                          item.href.startsWith('http')
+                            ? 'noopener noreferrer'
+                            : undefined
+                        }
                         className="text-sm text-white hover:text-cyan-400 transition-colors"
                       >
                         {item.value}
                       </a>
                     ) : (
-                      <span className="text-sm text-white">{item.value}</span>
+                      <span className="text-sm text-white">
+                        {item.value}
+                      </span>
                     )}
                   </div>
                 </div>
               ))}
 
-              <div className="flex items-center gap-4 pt-4 border-t border-white/5">
+
+              {/* Owners */}
+              <div className="flex items-start gap-4 pt-4 border-t border-white/5">
+
                 <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-400/20 shrink-0">
-                  <User className="text-cyan-400" size={20} />
+                  <User
+                    className="text-cyan-400"
+                    size={20}
+                  />
                 </div>
+
                 <div>
-                  <div className="text-xs text-gray-500 mb-0.5">{t.contact.owner}</div>
-                  <span className="text-sm text-white">Коновалов М.О.</span>
+                  <div className="text-xs text-gray-500 mb-1">
+                    {t.contact.owner}
+                  </div>
+
+                  <div className="space-y-1">
+                    <div className="text-sm text-white">
+                      Коновалов М.О.
+                    </div>
+
+                    <div className="text-sm text-white">
+                      Коновалова А.О.
+                    </div>
+                  </div>
                 </div>
+
               </div>
+
             </div>
           </Reveal>
         </div>
+
 
         {/* Right: form */}
         <Reveal delay={300}>
           <ContactForm />
         </Reveal>
+
       </div>
     </Section>
   );
