@@ -1,0 +1,313 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "reviews": "Reviews",
+    "support": "Support",
+    "contacts": "Contacts",
+    "discussProject": "Discuss a project"
+  },
+  "hero": {
+    "badge": "Full-cycle IT studio",
+    "title": "Building digital solutions that help businesses grow",
+    "subtitle": "Websites, CRM systems, automation and modern web solutions for your business.",
+    "discussCta": "Discuss a project",
+    "portfolioCta": "View portfolio",
+    "stat1": "Projects",
+    "stat2": "Clients",
+    "stat3": "Technologies",
+    "stat4": "Support"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Full-cycle digital solutions for your business — from idea to support.",
+    "orderCta": "Order service",
+    "learnMore": "Learn more"
+  },
+  "whyUs": {
+    "title": "Why ALEXORA STUDIO",
+    "subtitle": "We build long-term relationships with clients through quality and reliability.",
+    "individual": "Individual approach",
+    "individualDesc": "Every project is unique. We don't use templates.",
+    "modernTech": "Modern technologies",
+    "modernTechDesc": "React, TypeScript, Supabase, Tailwind — a scalable stack.",
+    "responsive": "Responsive design",
+    "responsiveDesc": "Sites that work flawlessly on any device.",
+    "fastComm": "Fast communication",
+    "fastCommDesc": "We reply within a day and keep you informed.",
+    "automation": "Business automation",
+    "automationDesc": "We free your team from routine tasks.",
+    "support": "Post-launch support",
+    "supportDesc": "We don't disappear after launch — we keep developing the project."
+  },
+  "portfolio": {
+    "title": "Our Projects",
+    "subtitle": "Real solutions we've built for our clients.",
+    "viewProject": "View project",
+    "all": "All",
+    "technologies": "Technologies",
+    "category": "Category",
+    "backToPortfolio": "Back to portfolio",
+    "projectUrl": "Open project website",
+    "noProjects": "Projects coming soon"
+  },
+  "reviews": {
+    "title": "Client Reviews",
+    "subtitle": "What those who've worked with us say.",
+    "noReviews": "Reviews coming soon"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find the answer to your question."
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Have questions or need help? Our support team will help you find a quick answer.",
+    "openSupport": "Message us on Telegram",
+    "description": "We're available on Telegram for fast communication and consultations."
+  },
+  "cta": {
+    "title": "Ready to start a project?",
+    "subtitle": "Tell us about your idea — and we'll propose a solution that fits you.",
+    "button": "Submit a request"
+  },
+  "contact": {
+    "title": "Tell us about your project",
+    "subtitle": "Fill out the form and we'll contact you shortly.",
+    "contactsTitle": "Contacts",
+    "owner": "Owner",
+    "city": "Kyiv, Ukraine"
+  },
+  "form": {
+    "firstName": "First name",
+    "firstNamePlaceholder": "Your first name",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Your last name",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+380 (XX) XXX XX XX",
+    "service": "Service",
+    "servicePlaceholder": "Select a service",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project...",
+    "consent": "I agree to the processing of my personal data",
+    "submit": "Send request",
+    "sending": "Sending...",
+    "success": "Thank you! Your request has been successfully submitted. We will contact you shortly.",
+    "error": "An error occurred. Try again or message us on Telegram.",
+    "errorNetwork": "No internet connection. Check your connection.",
+    "errorRequired": "This field is required",
+    "errorEmail": "Enter a valid email",
+    "errorPhone": "Enter a valid phone number",
+    "errorMessage": "Message too short (minimum 10 characters)",
+    "errorConsent": "Your consent to data processing is required",
+    "sendAnother": "Send another request"
+  },
+  "footer": {
+    "tagline": "Digital solutions for modern business.",
+    "navigation": "Navigation",
+    "languages": "Languages",
+    "contacts": "Contacts",
+    "info": "Information",
+    "rights": "All rights reserved"
+  },
+  "admin": {
+    "login": {
+      "title": "Admin panel login",
+      "subtitle": "Enter your credentials to access the control panel.",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign in",
+      "signingIn": "Signing in...",
+      "error": "Invalid email or password",
+      "backToSite": "Back to site"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "portfolio": "Portfolio",
+      "reviews": "Reviews",
+      "services": "Services",
+      "clients": "Clients",
+      "settings": "Settings",
+      "faq": "FAQ",
+      "logout": "Logout",
+      "backToSite": "To site"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "totalLeads": "Total leads",
+      "newLeads": "New leads",
+      "inProgressLeads": "In progress",
+      "activeClients": "Active clients",
+      "totalProjects": "Total projects",
+      "featuredProjects": "Featured projects",
+      "totalReviews": "Reviews",
+      "totalServices": "Services",
+      "websiteLeads": "Website leads",
+      "recentLeads": "Recent leads",
+      "noLeads": "No leads yet"
+    },
+    "portfolio": {
+      "title": "Portfolio management",
+      "add": "Add project",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete this project?",
+      "fields": {
+        "titleUk": "Title (UK)",
+        "titleRu": "Title (RU)",
+        "titleEn": "Title (EN)",
+        "descriptionUk": "Description (UK)",
+        "descriptionRu": "Description (RU)",
+        "descriptionEn": "Description (EN)",
+        "categoryUk": "Category (UK)",
+        "categoryRu": "Category (RU)",
+        "categoryEn": "Category (EN)",
+        "technologies": "Technologies (comma-separated)",
+        "imageUrl": "Image URL",
+        "projectUrl": "Project URL",
+        "featured": "Featured",
+        "sortOrder": "Sort order"
+      }
+    },
+    "reviews": {
+      "title": "Reviews management",
+      "add": "Add review",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete this review?",
+      "fields": {
+        "clientName": "Client name",
+        "company": "Company",
+        "positionUk": "Position (UK)",
+        "positionRu": "Position (RU)",
+        "positionEn": "Position (EN)",
+        "textUk": "Text (UK)",
+        "textRu": "Text (RU)",
+        "textEn": "Text (EN)",
+        "rating": "Rating",
+        "avatarUrl": "Avatar URL",
+        "isVisible": "Visible",
+        "sortOrder": "Sort order"
+      }
+    },
+    "services": {
+      "title": "Services management",
+      "add": "Add service",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete this service?",
+      "fields": {
+        "titleUk": "Title (UK)",
+        "titleRu": "Title (RU)",
+        "titleEn": "Title (EN)",
+        "descriptionUk": "Description (UK)",
+        "descriptionRu": "Description (RU)",
+        "descriptionEn": "Description (EN)",
+        "icon": "Icon (Lucide)",
+        "sortOrder": "Sort order",
+        "isActive": "Active"
+      }
+    },
+    "faq": {
+      "title": "FAQ management",
+      "add": "Add question",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete this question?",
+      "fields": {
+        "questionUk": "Question (UK)",
+        "questionRu": "Question (RU)",
+        "questionEn": "Question (EN)",
+        "answerUk": "Answer (UK)",
+        "answerRu": "Answer (RU)",
+        "answerEn": "Answer (EN)",
+        "sortOrder": "Sort order",
+        "isVisible": "Visible"
+      }
+    },
+    "clients": {
+      "title": "Clients & requests",
+      "subtitle": "Requests received via the website and clients from the CRM.",
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "source": "Source",
+      "status": "Status",
+      "notes": "Notes",
+      "createdAt": "Created",
+      "noClients": "No clients yet",
+      "filterAll": "All",
+      "filterNew": "New",
+      "filterInProgress": "In progress",
+      "filterActive": "Active"
+    },
+    "settings": {
+      "title": "Site settings",
+      "subtitle": "Edit homepage content, SEO and contacts.",
+      "heroSection": "Hero section",
+      "seoSection": "SEO",
+      "contactsSection": "Contacts",
+      "save": "Save",
+      "saving": "Saving...",
+      "saved": "Saved!",
+      "fields": {
+        "heroTitleUk": "Hero Title (UK)",
+        "heroTitleRu": "Hero Title (RU)",
+        "heroTitleEn": "Hero Title (EN)",
+        "heroSubtitleUk": "Hero Subtitle (UK)",
+        "heroSubtitleRu": "Hero Subtitle (RU)",
+        "heroSubtitleEn": "Hero Subtitle (EN)",
+        "seoTitleUk": "SEO Title (UK)",
+        "seoTitleRu": "SEO Title (RU)",
+        "seoTitleEn": "SEO Title (EN)",
+        "seoDescriptionUk": "SEO Description (UK)",
+        "seoDescriptionRu": "SEO Description (RU)",
+        "seoDescriptionEn": "SEO Description (EN)",
+        "ownerName": "Owner name",
+        "city": "City",
+        "email": "Email",
+        "telegram": "Telegram",
+        "phone": "Phone"
+      }
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "Loading error",
+      "retry": "Try again",
+      "noData": "No data",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "add": "Add",
+      "search": "Search",
+      "actions": "Actions",
+      "close": "Close",
+      "confirm": "Confirm",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "unauthorized": "You don't have access to this page",
+    "forbidden": "Access denied"
+  },
+  "errors": {
+    "pageNotFound": "Page not found",
+    "pageNotFoundDesc": "The page you're looking for doesn't exist.",
+    "backHome": "Back home"
+  }
+}

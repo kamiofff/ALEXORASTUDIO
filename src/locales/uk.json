@@ -1,0 +1,313 @@
+{
+  "nav": {
+    "home": "Головна",
+    "services": "Послуги",
+    "portfolio": "Портфоліо",
+    "about": "Про нас",
+    "reviews": "Відгуки",
+    "support": "Підтримка",
+    "contacts": "Контакти",
+    "discussProject": "Обговорити проєкт"
+  },
+  "hero": {
+    "badge": "IT-студія повного циклу",
+    "title": "Створюємо цифрові рішення, які допомагають бізнесу розвиватися",
+    "subtitle": "Сайти, CRM-системи, автоматизація та сучасні веб-рішення для вашого бізнесу.",
+    "discussCta": "Обговорити проєкт",
+    "portfolioCta": "Переглянути портфоліо",
+    "stat1": "Проєкти",
+    "stat2": "Клієнти",
+    "stat3": "Технології",
+    "stat4": "Підтримка"
+  },
+  "services": {
+    "title": "Наші послуги",
+    "subtitle": "Повний цикл digital-рішень для вашого бізнесу — від ідеї до підтримки.",
+    "orderCta": "Замовити послугу",
+    "learnMore": "Дізнатися більше"
+  },
+  "whyUs": {
+    "title": "Чому ALEXORA STUDIO",
+    "subtitle": "Ми будуємо довгострокові відносини з клієнтами через якість та надійність.",
+    "individual": "Індивідуальний підхід",
+    "individualDesc": "Кожен проєкт унікальний. Ми не використовуємо шаблони.",
+    "modernTech": "Сучасні технології",
+    "modernTechDesc": "React, TypeScript, Supabase, Tailwind — стек, що масштабується.",
+    "responsive": "Адаптивний дизайн",
+    "responsiveDesc": "Сайти, що працюють бездоганно на будь-якому пристрої.",
+    "fastComm": "Швидка комунікація",
+    "fastCommDesc": "Відповідаємо протягом дня та тримаємо вас в курсі.",
+    "automation": "Автоматизація бізнесу",
+    "automationDesc": "Звільняємо вашу команду від рутини.",
+    "support": "Підтримка після запуску",
+    "supportDesc": "Не зникаємо після релізу — розвиваємо проєкт далі."
+  },
+  "portfolio": {
+    "title": "Наші проєкти",
+    "subtitle": "Реальні рішення, які ми створили для наших клієнтів.",
+    "viewProject": "Переглянути проєкт",
+    "all": "Усі",
+    "technologies": "Технології",
+    "category": "Категорія",
+    "backToPortfolio": "Назад до портфоліо",
+    "projectUrl": "Відкрити сайт проєкту",
+    "noProjects": "Проєкти скоро з'являться"
+  },
+  "reviews": {
+    "title": "Відгуки клієнтів",
+    "subtitle": "Що кажуть ті, хто вже працював з нами.",
+    "noReviews": "Відгуки скоро з'являться"
+  },
+  "faq": {
+    "title": "Поширені запитання",
+    "subtitle": "Знайдіть відповідь на своє питання."
+  },
+  "support": {
+    "title": "Підтримка",
+    "subtitle": "Маєте питання або потрібна допомога? Наша підтримка допоможе швидко знайти відповідь.",
+    "openSupport": "Написати в Telegram",
+    "description": "Ми доступні в Telegram для швидкої комунікації та консультацій."
+  },
+  "cta": {
+    "title": "Готові розпочати проєкт?",
+    "subtitle": "Розкажіть про свою ідею — і ми запропонуємо рішення, що підійде саме вам.",
+    "button": "Залишити заявку"
+  },
+  "contact": {
+    "title": "Розкажіть про свій проєкт",
+    "subtitle": "Заповніть форму, і ми зв'яжемося з вами найближчим часом.",
+    "contactsTitle": "Контакти",
+    "owner": "Власник",
+    "city": "Київ, Україна"
+  },
+  "form": {
+    "firstName": "Ім'я",
+    "firstNamePlaceholder": "Ваше ім'я",
+    "lastName": "Прізвище",
+    "lastNamePlaceholder": "Ваше прізвище",
+    "company": "Компанія",
+    "companyPlaceholder": "Назва компанії",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Телефон",
+    "phonePlaceholder": "+380 (XX) XXX XX XX",
+    "service": "Послуга",
+    "servicePlaceholder": "Оберіть послугу",
+    "message": "Повідомлення",
+    "messagePlaceholder": "Розкажіть про ваш проєкт...",
+    "consent": "Я погоджуюсь на обробку моїх персональних даних",
+    "submit": "Надіслати заявку",
+    "sending": "Надсилання...",
+    "success": "Дякуємо! Вашу заявку успішно відправлено. Ми зв'яжемося з вами найближчим часом.",
+    "error": "Сталася помилка. Спробуйте ще раз або напишіть нам в Telegram.",
+    "errorNetwork": "Немає з'єднання з інтернетом. Перевірте підключення.",
+    "errorRequired": "Це поле обов'язкове",
+    "errorEmail": "Введіть коректний email",
+    "errorPhone": "Введіть коректний телефон",
+    "errorMessage": "Повідомлення занадто коротке (мінімум 10 символів)",
+    "errorConsent": "Потрібна ваша згода на обробку даних",
+    "sendAnother": "Надіслати ще одну заявку"
+  },
+  "footer": {
+    "tagline": "Digital solutions for modern business.",
+    "navigation": "Навігація",
+    "languages": "Мови",
+    "contacts": "Контакти",
+    "info": "Інформація",
+    "rights": "Усі права захищені"
+  },
+  "admin": {
+    "login": {
+      "title": "Вхід в адмін-панель",
+      "subtitle": "Введіть дані для доступу до панелі керування.",
+      "email": "Email",
+      "password": "Пароль",
+      "signIn": "Увійти",
+      "signingIn": "Вхід...",
+      "error": "Невірний email або пароль",
+      "backToSite": "Назад на сайт"
+    },
+    "nav": {
+      "dashboard": "Дашборд",
+      "portfolio": "Портфоліо",
+      "reviews": "Відгуки",
+      "services": "Послуги",
+      "clients": "Клієнти",
+      "settings": "Налаштування",
+      "faq": "FAQ",
+      "logout": "Вийти",
+      "backToSite": "На сайт"
+    },
+    "dashboard": {
+      "title": "Дашборд",
+      "totalLeads": "Усього заявок",
+      "newLeads": "Нові заявки",
+      "inProgressLeads": "В роботі",
+      "activeClients": "Активні клієнти",
+      "totalProjects": "Усього проєктів",
+      "featuredProjects": "Обрані проєкти",
+      "totalReviews": "Відгуків",
+      "totalServices": "Послуг",
+      "websiteLeads": "Заявок з сайту",
+      "recentLeads": "Останні заявки",
+      "noLeads": "Заявок ще немає"
+    },
+    "portfolio": {
+      "title": "Управління портфоліо",
+      "add": "Додати проєкт",
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "save": "Зберегти",
+      "cancel": "Скасувати",
+      "confirmDelete": "Видалити цей проєкт?",
+      "fields": {
+        "titleUk": "Назва (UK)",
+        "titleRu": "Назва (RU)",
+        "titleEn": "Назва (EN)",
+        "descriptionUk": "Опис (UK)",
+        "descriptionRu": "Опис (RU)",
+        "descriptionEn": "Опис (EN)",
+        "categoryUk": "Категорія (UK)",
+        "categoryRu": "Категорія (RU)",
+        "categoryEn": "Категорія (EN)",
+        "technologies": "Технології (через кому)",
+        "imageUrl": "URL зображення",
+        "projectUrl": "URL проєкту",
+        "featured": "Обраний",
+        "sortOrder": "Порядок"
+      }
+    },
+    "reviews": {
+      "title": "Управління відгуками",
+      "add": "Додати відгук",
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "save": "Зберегти",
+      "cancel": "Скасувати",
+      "confirmDelete": "Видалити цей відгук?",
+      "fields": {
+        "clientName": "Ім'я клієнта",
+        "company": "Компанія",
+        "positionUk": "Посада (UK)",
+        "positionRu": "Посада (RU)",
+        "positionEn": "Посада (EN)",
+        "textUk": "Текст (UK)",
+        "textRu": "Текст (RU)",
+        "textEn": "Текст (EN)",
+        "rating": "Рейтинг",
+        "avatarUrl": "URL аватара",
+        "isVisible": "Видимий",
+        "sortOrder": "Порядок"
+      }
+    },
+    "services": {
+      "title": "Управління послугами",
+      "add": "Додати послугу",
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "save": "Зберегти",
+      "cancel": "Скасувати",
+      "confirmDelete": "Видалити цю послугу?",
+      "fields": {
+        "titleUk": "Назва (UK)",
+        "titleRu": "Назва (RU)",
+        "titleEn": "Назва (EN)",
+        "descriptionUk": "Опис (UK)",
+        "descriptionRu": "Опис (RU)",
+        "descriptionEn": "Опис (EN)",
+        "icon": "Іконка (Lucide)",
+        "sortOrder": "Порядок",
+        "isActive": "Активна"
+      }
+    },
+    "faq": {
+      "title": "Управління FAQ",
+      "add": "Додати питання",
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "save": "Зберегти",
+      "cancel": "Скасувати",
+      "confirmDelete": "Видалити це питання?",
+      "fields": {
+        "questionUk": "Питання (UK)",
+        "questionRu": "Питання (RU)",
+        "questionEn": "Питання (EN)",
+        "answerUk": "Відповідь (UK)",
+        "answerRu": "Відповідь (RU)",
+        "answerEn": "Відповідь (EN)",
+        "sortOrder": "Порядок",
+        "isVisible": "Видимий"
+      }
+    },
+    "clients": {
+      "title": "Клієнти та заявки",
+      "subtitle": "Заявки, що надійшли через сайт та клієнти з CRM.",
+      "name": "Ім'я",
+      "company": "Компанія",
+      "email": "Email",
+      "phone": "Телефон",
+      "source": "Джерело",
+      "status": "Статус",
+      "notes": "Нотатки",
+      "createdAt": "Створено",
+      "noClients": "Клієнтів ще немає",
+      "filterAll": "Усі",
+      "filterNew": "Нові",
+      "filterInProgress": "В роботі",
+      "filterActive": "Активні"
+    },
+    "settings": {
+      "title": "Налаштування сайту",
+      "subtitle": "Редагування контенту головної сторінки, SEO та контактів.",
+      "heroSection": "Hero-секція",
+      "seoSection": "SEO",
+      "contactsSection": "Контакти",
+      "save": "Зберегти",
+      "saving": "Збереження...",
+      "saved": "Збережено!",
+      "fields": {
+        "heroTitleUk": "Заголовок Hero (UK)",
+        "heroTitleRu": "Заголовок Hero (RU)",
+        "heroTitleEn": "Заголовок Hero (EN)",
+        "heroSubtitleUk": "Підзаголовок Hero (UK)",
+        "heroSubtitleRu": "Підзаголовок Hero (RU)",
+        "heroSubtitleEn": "Підзаголовок Hero (EN)",
+        "seoTitleUk": "SEO Title (UK)",
+        "seoTitleRu": "SEO Title (RU)",
+        "seoTitleEn": "SEO Title (EN)",
+        "seoDescriptionUk": "SEO Description (UK)",
+        "seoDescriptionRu": "SEO Description (RU)",
+        "seoDescriptionEn": "SEO Description (EN)",
+        "ownerName": "Ім'я власника",
+        "city": "Місто",
+        "email": "Email",
+        "telegram": "Telegram",
+        "phone": "Телефон"
+      }
+    },
+    "common": {
+      "loading": "Завантаження...",
+      "error": "Помилка завантаження",
+      "retry": "Спробувати ще раз",
+      "noData": "Немає даних",
+      "save": "Зберегти",
+      "cancel": "Скасувати",
+      "delete": "Видалити",
+      "edit": "Редагувати",
+      "add": "Додати",
+      "search": "Пошук",
+      "actions": "Дії",
+      "close": "Закрити",
+      "confirm": "Підтвердити",
+      "yes": "Так",
+      "no": "Ні"
+    },
+    "unauthorized": "У вас немає доступу до цієї сторінки",
+    "forbidden": "Доступ заборонено"
+  },
+  "errors": {
+    "pageNotFound": "Сторінку не знайдено",
+    "pageNotFoundDesc": "Сторінка, яку ви шукаєте, не існує.",
+    "backHome": "На головну"
+  }
+}

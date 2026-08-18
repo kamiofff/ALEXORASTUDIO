@@ -1,0 +1,313 @@
+{
+  "nav": {
+    "home": "Главная",
+    "services": "Услуги",
+    "portfolio": "Портфолио",
+    "about": "О нас",
+    "reviews": "Отзывы",
+    "support": "Поддержка",
+    "contacts": "Контакты",
+    "discussProject": "Обсудить проект"
+  },
+  "hero": {
+    "badge": "IT-студия полного цикла",
+    "title": "Создаём цифровые решения, которые помогают бизнесу развиваться",
+    "subtitle": "Сайты, CRM-системы, автоматизация и современные веб-решения для вашего бизнеса.",
+    "discussCta": "Обсудить проект",
+    "portfolioCta": "Посмотреть портфолио",
+    "stat1": "Проекты",
+    "stat2": "Клиенты",
+    "stat3": "Технологии",
+    "stat4": "Поддержка"
+  },
+  "services": {
+    "title": "Наши услуги",
+    "subtitle": "Полный цикл digital-решений для вашего бизнеса — от идеи до поддержки.",
+    "orderCta": "Заказать услугу",
+    "learnMore": "Подробнее"
+  },
+  "whyUs": {
+    "title": "Почему ALEXORA STUDIO",
+    "subtitle": "Мы строим долгосрочные отношения с клиентами через качество и надёжность.",
+    "individual": "Индивидуальный подход",
+    "individualDesc": "Каждый проект уникален. Мы не используем шаблоны.",
+    "modernTech": "Современные технологии",
+    "modernTechDesc": "React, TypeScript, Supabase, Tailwind — масштабируемый стек.",
+    "responsive": "Адаптивный дизайн",
+    "responsiveDesc": "Сайты, работающие безупречно на любом устройстве.",
+    "fastComm": "Быстрая коммуникация",
+    "fastCommDesc": "Отвечаем в течение дня и держим вас в курсе.",
+    "automation": "Автоматизация бизнеса",
+    "automationDesc": "Освобождаем вашу команду от рутины.",
+    "support": "Поддержка после запуска",
+    "supportDesc": "Не исчезаем после релиза — развиваем проект дальше."
+  },
+  "portfolio": {
+    "title": "Наши проекты",
+    "subtitle": "Реальные решения, которые мы создали для наших клиентов.",
+    "viewProject": "Посмотреть проект",
+    "all": "Все",
+    "technologies": "Технологии",
+    "category": "Категория",
+    "backToPortfolio": "Назад к портфолио",
+    "projectUrl": "Открыть сайт проекта",
+    "noProjects": "Проекты скоро появятся"
+  },
+  "reviews": {
+    "title": "Отзывы клиентов",
+    "subtitle": "Что говорят те, кто уже работал с нами.",
+    "noReviews": "Отзывы скоро появятся"
+  },
+  "faq": {
+    "title": "Частые вопросы",
+    "subtitle": "Найдите ответ на свой вопрос."
+  },
+  "support": {
+    "title": "Поддержка",
+    "subtitle": "Есть вопросы или нужна помощь? Наша поддержка поможет быстро найти ответ.",
+    "openSupport": "Написать в Telegram",
+    "description": "Мы доступны в Telegram для быстрой коммуникации и консультаций."
+  },
+  "cta": {
+    "title": "Готовы начать проект?",
+    "subtitle": "Расскажите о своей идее — и мы предложим решение, которое подойдёт именно вам.",
+    "button": "Оставить заявку"
+  },
+  "contact": {
+    "title": "Расскажите о своём проекте",
+    "subtitle": "Заполните форму, и мы свяжемся с вами в ближайшее время.",
+    "contactsTitle": "Контакты",
+    "owner": "Владелец",
+    "city": "Киев, Украина"
+  },
+  "form": {
+    "firstName": "Имя",
+    "firstNamePlaceholder": "Ваше имя",
+    "lastName": "Фамилия",
+    "lastNamePlaceholder": "Ваша фамилия",
+    "company": "Компания",
+    "companyPlaceholder": "Название компании",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "phone": "Телефон",
+    "phonePlaceholder": "+380 (XX) XXX XX XX",
+    "service": "Услуга",
+    "servicePlaceholder": "Выберите услугу",
+    "message": "Сообщение",
+    "messagePlaceholder": "Расскажите о вашем проекте...",
+    "consent": "Я согласен на обработку моих персональных данных",
+    "submit": "Отправить заявку",
+    "sending": "Отправка...",
+    "success": "Спасибо! Ваша заявка успешно отправлена. Мы свяжемся с вами в ближайшее время.",
+    "error": "Произошла ошибка. Попробуйте ещё раз или напишите нам в Telegram.",
+    "errorNetwork": "Нет соединения с интернетом. Проверьте подключение.",
+    "errorRequired": "Это поле обязательно",
+    "errorEmail": "Введите корректный email",
+    "errorPhone": "Введите корректный телефон",
+    "errorMessage": "Сообщение слишком короткое (минимум 10 символов)",
+    "errorConsent": "Нужно ваше согласие на обработку данных",
+    "sendAnother": "Отправить ещё одну заявку"
+  },
+  "footer": {
+    "tagline": "Digital solutions for modern business.",
+    "navigation": "Навигация",
+    "languages": "Языки",
+    "contacts": "Контакты",
+    "info": "Информация",
+    "rights": "Все права защищены"
+  },
+  "admin": {
+    "login": {
+      "title": "Вход в админ-панель",
+      "subtitle": "Введите данные для доступа к панели управления.",
+      "email": "Email",
+      "password": "Пароль",
+      "signIn": "Войти",
+      "signingIn": "Вход...",
+      "error": "Неверный email или пароль",
+      "backToSite": "Назад на сайт"
+    },
+    "nav": {
+      "dashboard": "Дашборд",
+      "portfolio": "Портфолио",
+      "reviews": "Отзывы",
+      "services": "Услуги",
+      "clients": "Клиенты",
+      "settings": "Настройки",
+      "faq": "FAQ",
+      "logout": "Выйти",
+      "backToSite": "На сайт"
+    },
+    "dashboard": {
+      "title": "Дашборд",
+      "totalLeads": "Всего заявок",
+      "newLeads": "Новые заявки",
+      "inProgressLeads": "В работе",
+      "activeClients": "Активные клиенты",
+      "totalProjects": "Всего проектов",
+      "featuredProjects": "Избранные проекты",
+      "totalReviews": "Отзывов",
+      "totalServices": "Услуг",
+      "websiteLeads": "Заявок с сайта",
+      "recentLeads": "Последние заявки",
+      "noLeads": "Заявок пока нет"
+    },
+    "portfolio": {
+      "title": "Управление портфолио",
+      "add": "Добавить проект",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "confirmDelete": "Удалить этот проект?",
+      "fields": {
+        "titleUk": "Название (UK)",
+        "titleRu": "Название (RU)",
+        "titleEn": "Название (EN)",
+        "descriptionUk": "Описание (UK)",
+        "descriptionRu": "Описание (RU)",
+        "descriptionEn": "Описание (EN)",
+        "categoryUk": "Категория (UK)",
+        "categoryRu": "Категория (RU)",
+        "categoryEn": "Категория (EN)",
+        "technologies": "Технологии (через запятую)",
+        "imageUrl": "URL изображения",
+        "projectUrl": "URL проекта",
+        "featured": "Избранный",
+        "sortOrder": "Порядок"
+      }
+    },
+    "reviews": {
+      "title": "Управление отзывами",
+      "add": "Добавить отзыв",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "confirmDelete": "Удалить этот отзыв?",
+      "fields": {
+        "clientName": "Имя клиента",
+        "company": "Компания",
+        "positionUk": "Должность (UK)",
+        "positionRu": "Должность (RU)",
+        "positionEn": "Должность (EN)",
+        "textUk": "Текст (UK)",
+        "textRu": "Текст (RU)",
+        "textEn": "Текст (EN)",
+        "rating": "Рейтинг",
+        "avatarUrl": "URL аватара",
+        "isVisible": "Видим",
+        "sortOrder": "Порядок"
+      }
+    },
+    "services": {
+      "title": "Управление услугами",
+      "add": "Добавить услугу",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "confirmDelete": "Удалить эту услугу?",
+      "fields": {
+        "titleUk": "Название (UK)",
+        "titleRu": "Название (RU)",
+        "titleEn": "Название (EN)",
+        "descriptionUk": "Описание (UK)",
+        "descriptionRu": "Описание (RU)",
+        "descriptionEn": "Описание (EN)",
+        "icon": "Иконка (Lucide)",
+        "sortOrder": "Порядок",
+        "isActive": "Активна"
+      }
+    },
+    "faq": {
+      "title": "Управление FAQ",
+      "add": "Добавить вопрос",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "confirmDelete": "Удалить этот вопрос?",
+      "fields": {
+        "questionUk": "Вопрос (UK)",
+        "questionRu": "Вопрос (RU)",
+        "questionEn": "Вопрос (EN)",
+        "answerUk": "Ответ (UK)",
+        "answerRu": "Ответ (RU)",
+        "answerEn": "Ответ (EN)",
+        "sortOrder": "Порядок",
+        "isVisible": "Видим"
+      }
+    },
+    "clients": {
+      "title": "Клиенты и заявки",
+      "subtitle": "Заявки, поступившие через сайт и клиенты из CRM.",
+      "name": "Имя",
+      "company": "Компания",
+      "email": "Email",
+      "phone": "Телефон",
+      "source": "Источник",
+      "status": "Статус",
+      "notes": "Заметки",
+      "createdAt": "Создано",
+      "noClients": "Клиентов пока нет",
+      "filterAll": "Все",
+      "filterNew": "Новые",
+      "filterInProgress": "В работе",
+      "filterActive": "Активные"
+    },
+    "settings": {
+      "title": "Настройки сайта",
+      "subtitle": "Редактирование контента главной страницы, SEO и контактов.",
+      "heroSection": "Hero-секция",
+      "seoSection": "SEO",
+      "contactsSection": "Контакты",
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "saved": "Сохранено!",
+      "fields": {
+        "heroTitleUk": "Заголовок Hero (UK)",
+        "heroTitleRu": "Заголовок Hero (RU)",
+        "heroTitleEn": "Заголовок Hero (EN)",
+        "heroSubtitleUk": "Подзаголовок Hero (UK)",
+        "heroSubtitleRu": "Подзаголовок Hero (RU)",
+        "heroSubtitleEn": "Подзаголовок Hero (EN)",
+        "seoTitleUk": "SEO Title (UK)",
+        "seoTitleRu": "SEO Title (RU)",
+        "seoTitleEn": "SEO Title (EN)",
+        "seoDescriptionUk": "SEO Description (UK)",
+        "seoDescriptionRu": "SEO Description (RU)",
+        "seoDescriptionEn": "SEO Description (EN)",
+        "ownerName": "Имя владельца",
+        "city": "Город",
+        "email": "Email",
+        "telegram": "Telegram",
+        "phone": "Телефон"
+      }
+    },
+    "common": {
+      "loading": "Загрузка...",
+      "error": "Ошибка загрузки",
+      "retry": "Попробовать снова",
+      "noData": "Нет данных",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "delete": "Удалить",
+      "edit": "Редактировать",
+      "add": "Добавить",
+      "search": "Поиск",
+      "actions": "Действия",
+      "close": "Закрыть",
+      "confirm": "Подтвердить",
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "unauthorized": "У вас нет доступа к этой странице",
+    "forbidden": "Доступ запрещён"
+  },
+  "errors": {
+    "pageNotFound": "Страница не найдена",
+    "pageNotFoundDesc": "Страница, которую вы ищете, не существует.",
+    "backHome": "На главную"
+  }
+}
