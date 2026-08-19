@@ -43,6 +43,12 @@ export function ContactForm() {
   const [services, setServices] =
     useState<Service[]>([]);
 
+  const [servicesLoading, setServicesLoading] =
+    useState(true);
+
+  const [servicesError, setServicesError] =
+    useState(false);
+
   const [form, setForm] =
     useState<ContactFormData>({
       first_name: '',
@@ -56,35 +62,68 @@ export function ContactForm() {
     });
 
   /*
-   * Загружаем активные услуги
+   * Загружаем активные услуги из Supabase
    */
   useEffect(() => {
-    supabase
-      .from('services')
-      .select('*')
-      .eq('is_active', true)
-      .order('sort_order', {
-        ascending: true,
-      })
-      .then(({ data, error }) => {
+    const loadServices = async () => {
+      setServicesLoading(true);
+      setServicesError(false);
+
+      try {
+        const {
+          data,
+          error,
+        } = await supabase
+          .from('services')
+          .select(
+            'id, title_uk, title_ru, title_en, description_uk, description_ru, description_en, is_active, sort_order'
+          )
+          .eq('is_active', true)
+          .order('sort_order', {
+            ascending: true,
+          });
+
         if (error) {
           console.error(
-            'Ошибка загрузки услуг:',
+            'Ошибка загрузки услуг из Supabase:',
             error
           );
 
           setServices([]);
+          setServicesError(true);
+
           return;
         }
+
+        console.log(
+          'Услуги загружены:',
+          data
+        );
 
         setServices(
           (data as Service[]) ?? []
         );
-      });
+      } catch (error) {
+        console.error(
+          'Критическая ошибка загрузки услуг:',
+          error
+        );
+
+        setServices([]);
+        setServicesError(true);
+      } finally {
+        setServicesLoading(false);
+      }
+    };
+
+    loadServices();
   }, []);
 
   const titleKey =
-    `title_${lang}` as const;
+    `title_${lang}` as
+      | 'title_uk'
+      | 'title_ru'
+      | 'title_en';
 
   /*
    * Валидация
@@ -141,14 +180,6 @@ export function ContactForm() {
 
   /*
    * Отправка заявки
-   *
-   * Сайт
-   * ↓
-   * create-website-customer
-   * ↓
-   * Supabase customers
-   * ↓
-   * CRM → Клиенты
    */
   const handleSubmit = async (
     e: FormEvent
@@ -167,12 +198,13 @@ export function ContactForm() {
     setErrorMsg(null);
 
     try {
-      /*
-       * Получаем URL Supabase Edge Function
-       */
       const supabaseUrl =
         import.meta.env
           .VITE_SUPABASE_URL;
+
+      const supabaseAnonKey =
+        import.meta.env
+          .VITE_SUPABASE_ANON_KEY;
 
       if (!supabaseUrl) {
         throw new Error(
@@ -180,14 +212,17 @@ export function ContactForm() {
         );
       }
 
+      if (!supabaseAnonKey) {
+        throw new Error(
+          'VITE_SUPABASE_ANON_KEY не настроен'
+        );
+      }
+
       const functionUrl =
         `${supabaseUrl}/functions/v1/create-website-customer`;
 
       /*
-       * Информация о заявке.
-       *
-       * service и message находятся
-       * в поле client_info CRM.
+       * Информация о заявке
        */
       const clientInfo = [
         form.service
@@ -210,10 +245,7 @@ export function ContactForm() {
               'application/json',
 
             Authorization:
-              `Bearer ${
-                import.meta.env
-                  .VITE_SUPABASE_ANON_KEY
-              }`,
+              `Bearer ${supabaseAnonKey}`,
           },
 
           body: JSON.stringify({
@@ -538,35 +570,51 @@ export function ContactForm() {
               e.target.value
             )
           }
-          className={inputClass(
+          className={`${inputClass(
             'service'
-          )}
+          )} appearance-none cursor-pointer`}
           disabled={
-            status === 'loading'
+            status === 'loading' ||
+            servicesLoading ||
+            servicesError
           }
         >
           <option
             value=""
-            className="bg-[#0a0e14]"
+            className="bg-[#0a0e14] text-gray-400"
           >
-            {t.form.servicePlaceholder}
+            {servicesLoading
+              ? 'Завантаження послуг...'
+              : servicesError
+                ? 'Не вдалося завантажити послуги'
+                : services.length === 0
+                  ? 'Послуг поки немає'
+                  : t.form.servicePlaceholder}
           </option>
 
-          {services.map((s) => (
-            <option
-              key={s.id}
-              value={
-                s[titleKey] ??
-                s.title_en ??
-                ''
-              }
-              className="bg-[#0a0e14]"
-            >
-              {s[titleKey] ??
-                s.title_en}
-            </option>
-          ))}
+          {services.map((service) => {
+            const title =
+              service[titleKey] ??
+              service.title_en ??
+              '';
+
+            return (
+              <option
+                key={service.id}
+                value={title}
+                className="bg-[#0a0e14] text-white"
+              >
+                {title}
+              </option>
+            );
+          })}
         </select>
+
+        {servicesError && (
+          <p className="mt-1.5 text-xs text-red-400">
+            Не вдалося завантажити список послуг. Перевірте підключення до Supabase.
+          </p>
+        )}
       </div>
 
       {/* Сообщение */}
