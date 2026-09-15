@@ -158,24 +158,6 @@ export function Footer() {
           </div>
 
         </div>
-
-
-        {/* Bottom */}
-        <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
-
-          <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} ALEXORA STUDIO.{' '}
-            {t.footer.rights}.
-          </p>
-
-          <Link
-            to="/admin"
-            className="text-xs text-gray-600 hover:text-gray-400 transition-colors"
-          >
-            Admin
-          </Link>
-
-        </div>
       </div>
     </footer>
   );
